@@ -1,0 +1,27 @@
+.SearchButton,.buttonadd,.createbutton
+{display:block
+
+
+}
+.SearchButton{
+    border-radius: 10%;
+    background-color: rgb(151, 177, 169);
+    font-size: x-small;
+    color:turquoise;
+    width: auto;
+    border: 200px;
+}
+.addbutton{
+    border-radius: 40%;
+    background-color:turquoise ;
+    color:white;
+    font: size 50px;
+    width: fit-content;
+}
+.createbutton{
+    border-radius: 20%;
+    background-color: blue;
+    color:white;
+    font-weight: 100;
+    width: auto;
+}
