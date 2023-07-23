@@ -21,6 +21,7 @@
     background-color: red;
     display:inline-block;
     margin-bottom: 20px;
+    padding-top: 20%;
 }
 .sub-content {
     height: 200px;
