@@ -1,0 +1,166 @@
+* {
+    padding:0;
+    margin: 0;
+    
+}
+body{
+    font-family: 'roboto',sans-serif;
+
+}
+.nav{
+    background-color: #333333;
+    color: #ffffff;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.nav-links{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+
+
+    
+}
+a,h1{
+
+    text-decoration: none;
+    color:white;
+    font-family:cursive;
+    
+    
+}
+.btn{
+    color:white;
+    width:100px;
+    height:30px;
+    background-color:aqua;
+    box-shadow: 5px 5px, black;
+    font-size: 20px;
+    margin-left: 100%;
+}
+.container{
+    margin:0 auto;
+    width:100%;
+}
+.row{
+    display:flex;
+    
+}
+.col-2 ,.col{
+    width: 600px;px;
+    height:400px;
+    align-items:center;
+    margin:0 auto;
+    padding:50px 50px;
+
+}
+.col-2 {
+    flex: 2;
+}
+.card-header{
+    background-color: rgb(23,162,184);
+    height:70px;
+    width:444px;
+
+}
+.pic{
+    width: 80px;
+    position:relative;
+    border-radius: 50%;
+    border:2px white;
+    padding:20px;
+    
+
+
+}
+h2 img{
+    width:20px;
+}
+.card-body{
+    padding:20px;
+    background-color:white;
+    border-radius: 5px;
+    border:2px solid gray;
+    width: 400px;
+    
+}
+p{ 
+  font-family: cursive;  
+}
+a img{
+    width:20px;
+
+}
+.card-body a{
+    color:blue;
+}
+.card {
+    width: 444px;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+icon-s {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+
+.header {
+    background-color: #333333;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.avatar-s {
+    border-radius: 50%;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.user-line {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.start, .end {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.dates {
+    font-size: 20px;
+    color: #777;
+}
+
+.footer {
+    padding: 20px;
+    border-top: 2px solid #999;
+}
+
+.connections {
+    background-color: #eee;
+    color: #333;
+    font-size: 20px;
+    border-radius: 12px;
+    height: 24px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+
